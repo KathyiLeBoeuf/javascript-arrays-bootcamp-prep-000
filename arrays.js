@@ -26,7 +26,7 @@ console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, 'Mounds'));
 function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
-/* 1  */
+
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
   return array;
@@ -46,8 +46,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 /* 1 */
 function removeElementFromBeginningOfArray(array) {
-   array.slice(1);
-   return array;
+   let newArray = array.slice(1);
+   return newArray;
 } 
 
 function destructivelyRemoveElementFromEndOfArray(array) {
