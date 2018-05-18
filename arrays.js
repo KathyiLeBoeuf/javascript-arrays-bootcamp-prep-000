@@ -28,7 +28,8 @@ function addElementToEndOfArray(array, element) {
 }
 /* 1  */
 function destructivelyAddElementToEndOfArray(array, element) {
-  return array.push(element);
+  array.push(element);
+  return array;
 }
 /*
 console.log(destructivelyAddElementToEndOfArray(chocolateBars, "M \& M\'s"))
