@@ -13,7 +13,7 @@ function addElementToBeginningOfArray(array, element) {
   let  newArray = [element, ...array];
   return newArray;
 }
-
+// destructively means mutating or changing the original array
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
     array.unshift(element);
